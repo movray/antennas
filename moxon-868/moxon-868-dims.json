@@ -1,0 +1,27 @@
+{
+  "f0_mhz": 868.0,
+  "k_fr4": 0.86,
+  "w_trace_mm": 3.0,
+  "free_space_mm": {
+    "A": 123.28,
+    "B": 15.5,
+    "C": 7.06,
+    "D": 23.63
+  },
+  "board_mm": {
+    "A": 98.1,
+    "B": 12.33,
+    "D": 20.56,
+    "C": 12.18,
+    "E": 45.07
+  },
+  "nec_at_f0": {
+    "z_ohm": [
+      51.4,
+      1.3
+    ],
+    "gain_dbi": 6.01,
+    "front_back_db": 42.2
+  },
+  "board_source": "openEMS optimisation (half model, mesh x1) on 1.6 mm FR4 er 4.4: NEC design x K_FR4 0.86, then A, B, D x 0.9253, D x 1.0935 more, C = 12.18 mm"
+}

@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+*.bak
+*-backups/
+fp-info-cache
+*.kicad_prl
+*.lck
+~*
+\#*\#
+board.log
+board.erc

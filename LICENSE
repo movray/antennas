@@ -1,0 +1,13 @@
+Copyright (c) 2026 Sentuerk Ugras
+
+This repository is dual-licensed by file type:
+
+* Hardware design files - KiCad projects (*.kicad_pcb, *.kicad_sch, *.kicad_pro, *.pretty/),
+  netlists, dimension files (*-dims.json), etching masks (*.pdf), images and documentation -
+  are licensed under the CERN Open Hardware Licence Version 2 - Permissive (CERN-OHL-P-2.0),
+  see LICENSES/CERN-OHL-P-2.0.txt.
+
+* Software - the Python scripts (*.py) - is licensed under the MIT License,
+  see LICENSES/MIT.txt.
+
+SPDX-License-Identifier: CERN-OHL-P-2.0 AND MIT

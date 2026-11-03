@@ -1,0 +1,117 @@
+(export 
+  (version "D")
+  (design
+    (source "board.py")
+    (date "10/19/2026 09:19 PM")
+    (tool "SKiDL (2.3.0)")
+    (sheet
+      (number 1)
+      (name "/")
+      (tstamps "/")
+      (title_block
+        (title)
+        (company)
+        (rev)
+        (date)
+        (source "board.py")
+        (comment
+          (number "1")
+          (value ""))
+        (comment
+          (number "2")
+          (value ""))
+        (comment
+          (number "3")
+          (value ""))
+        (comment
+          (number "4")
+          (value ""))
+        (comment
+          (number "5")
+          (value ""))
+        (comment
+          (number "6")
+          (value ""))
+        (comment
+          (number "7")
+          (value ""))
+        (comment
+          (number "8")
+          (value ""))
+        (comment
+          (number "9")
+          (value "")))))
+  (components
+    (comp
+      (ref "AE1")
+      (value "Dipole 868MHz")
+      (description "Dipole antenna")
+      (footprint "dipole-868:Dipole_868")
+      (fields
+        (field
+          (name "Description") "Dipole antenna")
+        (field
+          (name "Footprint") "dipole-868:Dipole_868")
+        (field
+          (name "Datasheet") "~")
+        (field
+          (name "SKiDL Tag") "PzuIIW1FjX")
+        (field
+          (name "SKiDL Line") "board.py:25"))
+      (libsource
+        (lib "Device")
+        (part "Antenna_Dipole"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (component_classes)
+      (tstamps "4aa4e137-8335-5520-bcd7-76d987357c9d"))
+    (comp
+      (ref "J1")
+      (value "RG316 pigtail")
+      (description "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)")
+      (footprint "dipole-868:CoaxFeed_Gap2mm")
+      (fields
+        (field
+          (name "Description") "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)")
+        (field
+          (name "Footprint") "dipole-868:CoaxFeed_Gap2mm")
+        (field
+          (name "Datasheet") "~")
+        (field
+          (name "SKiDL Tag") "e9kQ78o7En")
+        (field
+          (name "SKiDL Line") "board.py:26"))
+      (libsource
+        (lib "Connector")
+        (part "Conn_Coaxial"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (component_classes)
+      (tstamps "7ae89f3a-2c33-5bff-a909-fc854654ace6")))
+  (nets
+    (net
+      (code 1)
+      (name "RF")
+      (class "Default")
+      (node
+        (ref "AE1")
+        (pin "1")
+        (pintype "INPUT"))
+      (node
+        (ref "J1")
+        (pin "1")
+        (pintype "PASSIVE")))
+    (net
+      (code 2)
+      (name "RF_SHIELD")
+      (class "Default")
+      (node
+        (ref "AE1")
+        (pin "2")
+        (pintype "INPUT"))
+      (node
+        (ref "J1")
+        (pin "2")
+        (pintype "PASSIVE")))))

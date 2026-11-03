@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "dipole-868")(type "KiCad")(uri "${KIPRJMOD}/dipole-868.pretty")(options "")(descr "Project footprints"))
+)
